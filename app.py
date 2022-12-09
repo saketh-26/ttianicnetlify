@@ -39,7 +39,8 @@ def index():
         return render_template('index.html',res=result)
 
     return render_template('index.html',res = "Fill the details and Click Submit")
-app.run()
+if __name__ == "__main__":
+    app.run()
 
             
     
